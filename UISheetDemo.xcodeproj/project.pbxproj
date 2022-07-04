@@ -16,6 +16,8 @@
 		884190372872E58B0091BAB5 /* UISheetDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884190362872E58B0091BAB5 /* UISheetDemoTests.swift */; };
 		884190412872E58B0091BAB5 /* UISheetDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884190402872E58B0091BAB5 /* UISheetDemoUITests.swift */; };
 		884190432872E58B0091BAB5 /* UISheetDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884190422872E58B0091BAB5 /* UISheetDemoUITestsLaunchTests.swift */; };
+		884190512872FCF30091BAB5 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841904F2872FCF30091BAB5 /* SheetViewController.swift */; };
+		884190522872FCF30091BAB5 /* SheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884190502872FCF30091BAB5 /* SheetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8841903C2872E58B0091BAB5 /* UISheetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISheetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		884190402872E58B0091BAB5 /* UISheetDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISheetDemoUITests.swift; sourceTree = "<group>"; };
 		884190422872E58B0091BAB5 /* UISheetDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISheetDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8841904F2872FCF30091BAB5 /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		884190502872FCF30091BAB5 /* SheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheetViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				884190282872E58B0091BAB5 /* Assets.xcassets */,
 				8841902A2872E58B0091BAB5 /* LaunchScreen.storyboard */,
 				8841902D2872E58B0091BAB5 /* Info.plist */,
+				8841904F2872FCF30091BAB5 /* SheetViewController.swift */,
+				884190502872FCF30091BAB5 /* SheetViewController.xib */,
 			);
 			path = UISheetDemo;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884190522872FCF30091BAB5 /* SheetViewController.xib in Resources */,
 				8841902C2872E58B0091BAB5 /* LaunchScreen.storyboard in Resources */,
 				884190292872E58B0091BAB5 /* Assets.xcassets in Resources */,
 				884190272872E5850091BAB5 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884190512872FCF30091BAB5 /* SheetViewController.swift in Sources */,
 				884190242872E5850091BAB5 /* ViewController.swift in Sources */,
 				884190202872E5850091BAB5 /* AppDelegate.swift in Sources */,
 				884190222872E5850091BAB5 /* SceneDelegate.swift in Sources */,
